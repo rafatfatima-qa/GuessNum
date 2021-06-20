@@ -1,33 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Guessing Game</title>
-    <link rel="stylesheet"href="all.css" />
-    <link rel="stylesheet"href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Itim&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-
-    <h1>Guess The Number</h1>
   
-    <p>We have selected a random number between 1 - 25. 
-        See if you can guess it.</p>
+  <div class="number">
+    <h1> Guess Number</h1>
+    <h2>Number guessing game</h2>
+    </br>
   
-<div class="form">
-    <label for="guessField">Enter a guess: </label>
-    <input type = "text" id = "guessField" class = "guessField">
-    <input type = "submit" value = "Submit guess" class = "guessSubmit" id = "submitguess">
-</div>
+    <div id="wrapper">
+      <p>Guess a Number and enter <br> between 0 and 25 </p>
+        <form class="form">
+            <label2 for="guessField" id="guess">Guess a number</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="submitguess" value="Submit guess" class="guessSubmit">
+        </form>
 
-<script src="app.js"></script>
-    
+        
+    </div>
+  </div>
+    <script src="app.js"></script>
 </body>
-
-
 </html>
