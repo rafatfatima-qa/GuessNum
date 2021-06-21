@@ -19,7 +19,7 @@ if (guessedNum.length == 0){
     alert("Please enter a number");
 }
 
-if(answer == guessedNum)
+else if(answer == guessedNum)
 {    
    alert("WOW, You guessed it right " + tickMark);
 }
@@ -36,9 +36,4 @@ else if(answer - guessedNum > 5) /* if guessed number is greater than actual num
    alert("Oh no, You are very far from guessing it " + crossMark);
 } 
 
-else 
-{
-  
-   alert("Try again")
-}
 }
