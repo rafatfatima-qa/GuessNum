@@ -61,11 +61,12 @@ h1 {
     color: #fff;
     text-align: center;
     width: 745px;
-  height: 50px;
-  border: 2px solid transparent;
-  border-radius: 10px;
-  font-family: 'Noto Sans', sans-serif;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
 }
+
 h2 {
     background-color: white;
     font-family: 'Noto Sans', sans-serif;
@@ -82,7 +83,6 @@ p {
 }
 
 .number{
-
   width: 111%;
   height: 50%;
   display: block;
@@ -91,6 +91,7 @@ p {
   box-shadow: 10px 30px 10px 0px black;
 
 }
+
 #submitguess {
     background-color: yellowgreen;
     border: none;
@@ -110,6 +111,7 @@ p {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+  
   #submitguess :hover {
     background: #2079B0;
     text-decoration: none;

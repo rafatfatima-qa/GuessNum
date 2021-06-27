@@ -14,10 +14,10 @@
 
 ## What does this app do?
 - This app generates a random number.
-- Then compare this guessed number with user input number.
-- if guessed number - random number is less than 5, display an alert: Oh no, You were very close (with cross emoji in red color)
+- Then compare this random number with user input number.
+- if user input number is less than 5, display an alert: Oh no, You were very close (with cross emoji  in red color)
 - Else display another alert: Oh no, You are very far from guessing it (with cross emoji in red color)
-- If random number generated and guessed number is equal , display an alert that says: You guessed it right.
+- If random number generated and user input number is equal , display an alert that says: You guessed it right.
 
 ## UI work:
 - Assigned to Naima Shaikh and Humza
