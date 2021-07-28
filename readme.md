@@ -1,4 +1,4 @@
-## Gussing Number App
+## Number Gussing App
 - This repo is for JavaScript Problem solving Practice activity.
 - This activity is based on making different live projects given by instructor to different teams.
 - Our team task for Day-2 is Guess Number Game.
