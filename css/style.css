@@ -78,6 +78,7 @@ h1 {
     height: 50%;
     border-radius: 10px;
     font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
 }
 
 h2 {
@@ -98,9 +99,9 @@ p {
 }
 
 #submitguess {
-    background-color: yellowgreen;
+    background-color: rgb(190, 230, 111);
     border: none;
-    color: white;
+    color: black;
     /* padding: 15px 32px; */
     text-align: center;
     text-decoration: none;
